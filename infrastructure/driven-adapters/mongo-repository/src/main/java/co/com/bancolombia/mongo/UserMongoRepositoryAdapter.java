@@ -7,6 +7,7 @@ import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public class UserMongoRepositoryAdapter extends AdapterOperations<User, User, String, UserMongoDBRepository>implements UserRepository
@@ -31,11 +32,16 @@ public class UserMongoRepositoryAdapter extends AdapterOperations<User, User, St
 
     @Override
     public User updateUser(User user) {
-        return null;
+        return this.repository.save(user);
     }
 
     @Override
     public List<User> getAll() {
         return this.repository.findAll();
+    }
+
+    @Override
+    public Optional<User> getUserById(String id) {
+        return this.repository.findById(id);
     }
 }

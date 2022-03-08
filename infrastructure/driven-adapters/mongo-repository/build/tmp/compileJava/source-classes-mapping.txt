@@ -3,9 +3,9 @@ co/com/bancolombia/mongo/UserMongoDBRepository.java
 co/com/bancolombia/mongo/config/MongoDBSecret.java
  co.com.bancolombia.mongo.config.MongoDBSecret
  co.com.bancolombia.mongo.config.MongoDBSecret$MongoDBSecretBuilder
-co/com/bancolombia/mongo/UserMongoRepositoryAdapter.java
- co.com.bancolombia.mongo.UserMongoRepositoryAdapter
-co/com/bancolombia/mongo/helper/AdapterOperations.java
- co.com.bancolombia.mongo.helper.AdapterOperations
 co/com/bancolombia/mongo/config/MongoConfig.java
  co.com.bancolombia.mongo.config.MongoConfig
+co/com/bancolombia/mongo/helper/AdapterOperations.java
+ co.com.bancolombia.mongo.helper.AdapterOperations
+co/com/bancolombia/mongo/UserMongoRepositoryAdapter.java
+ co.com.bancolombia.mongo.UserMongoRepositoryAdapter
