@@ -44,4 +44,9 @@ public class UserMongoRepositoryAdapter extends AdapterOperations<User, User, St
     public Optional<User> getUserById(String id) {
         return this.repository.findById(id);
     }
+
+    @Override
+    public void deleteUser(String id) {
+        this.repository.deleteById(id);
+    }
 }

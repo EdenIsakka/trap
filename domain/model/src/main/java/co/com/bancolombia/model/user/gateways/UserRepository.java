@@ -10,4 +10,5 @@ public interface UserRepository {
     User updateUser(User user);
     List<User> getAll();
     Optional<User> getUserById(String id);
+    void deleteUser(String id);
 }

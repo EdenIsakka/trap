@@ -1,6 +1,7 @@
 package co.com.bancolombia.api;
 import co.com.bancolombia.model.user.User;
 import co.com.bancolombia.usecase.createuser.CreateUserUseCase;
+import co.com.bancolombia.usecase.deleteuser.DeleteUserUseCase;
 import co.com.bancolombia.usecase.getall.GetAllUseCase;
 import co.com.bancolombia.usecase.getuserbyid.GetUserByIdUseCase;
 import co.com.bancolombia.usecase.updateuser.UpdateUserUseCase;
@@ -19,6 +20,7 @@ public class UserRestController {
     private final UpdateUserUseCase updateUserUseCase;
     private final GetAllUseCase getAllUseCase;
     private final GetUserByIdUseCase getUserByIdUseCase;
+    private final DeleteUserUseCase deleteUserUseCase;
 
     @PostMapping(path = "/create-user")
     public String createUser(@RequestBody User user) {
@@ -43,7 +45,10 @@ public class UserRestController {
         return getUserByIdUseCase.getUserById(id);
     }
 
-
+    @DeleteMapping(path = "/delete-user/{id}")
+    public void deleteUser(@PathVariable String id){
+        deleteUserUseCase.deleteUser(id);
+    }
 
 
 }
