@@ -1,12 +1,14 @@
+co/com/bancolombia/usecase/updateadmin/UpdateAdminUseCase.java
+ co.com.bancolombia.usecase.updateadmin.UpdateAdminUseCase
 co/com/bancolombia/usecase/updateuser/UpdateUserUseCase.java
  co.com.bancolombia.usecase.updateuser.UpdateUserUseCase
 co/com/bancolombia/usecase/createuser/CreateUserUseCase.java
  co.com.bancolombia.usecase.createuser.CreateUserUseCase
-co/com/bancolombia/usecase/getuserbyid/GetUserByIdUseCase.java
- co.com.bancolombia.usecase.getuserbyid.GetUserByIdUseCase
+co/com/bancolombia/usecase/createadmin/CreateAdminUseCase.java
+ co.com.bancolombia.usecase.createadmin.CreateAdminUseCase
 co/com/bancolombia/usecase/deleteuser/DeleteUserUseCase.java
  co.com.bancolombia.usecase.deleteuser.DeleteUserUseCase
 co/com/bancolombia/usecase/getall/GetAllUseCase.java
  co.com.bancolombia.usecase.getall.GetAllUseCase
-co/com/bancolombia/usecase/createadmin/CreateAdminUseCase.java
- co.com.bancolombia.usecase.createadmin.CreateAdminUseCase
+co/com/bancolombia/usecase/getuserbyid/GetUserByIdUseCase.java
+ co.com.bancolombia.usecase.getuserbyid.GetUserByIdUseCase

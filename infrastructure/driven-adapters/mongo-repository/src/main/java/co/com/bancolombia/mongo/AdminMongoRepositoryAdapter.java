@@ -29,5 +29,10 @@ public class AdminMongoRepositoryAdapter extends AdapterOperations<Admin, Admin,
         return this.repository.save(admin);
     }
 
+    @Override
+    public Admin updateAdmin(Admin admin) {
+        return this.repository.save(admin);
+    }
+
 
 }

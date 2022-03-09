@@ -4,4 +4,5 @@ import co.com.bancolombia.model.admin.Admin;
 
 public interface AdminRepository {
     Admin createAdmin(Admin admin);
+    Admin updateAdmin(Admin admin);
 }

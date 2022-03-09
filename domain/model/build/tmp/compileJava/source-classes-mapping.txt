@@ -1,10 +1,10 @@
 co/com/bancolombia/model/user/User.java
  co.com.bancolombia.model.user.User
  co.com.bancolombia.model.user.User$UserBuilder
-co/com/bancolombia/model/user/gateways/UserRepository.java
- co.com.bancolombia.model.user.gateways.UserRepository
 co/com/bancolombia/model/admin/gateways/AdminRepository.java
  co.com.bancolombia.model.admin.gateways.AdminRepository
 co/com/bancolombia/model/admin/Admin.java
  co.com.bancolombia.model.admin.Admin
  co.com.bancolombia.model.admin.Admin$AdminBuilder
+co/com/bancolombia/model/user/gateways/UserRepository.java
+ co.com.bancolombia.model.user.gateways.UserRepository
