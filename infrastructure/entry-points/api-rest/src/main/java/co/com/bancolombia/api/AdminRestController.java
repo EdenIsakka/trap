@@ -1,11 +1,10 @@
 package co.com.bancolombia.api;
 import co.com.bancolombia.model.admin.Admin;
-import co.com.bancolombia.usecase.createadmin.CreateAdminUseCase;
-import co.com.bancolombia.usecase.deleteadmin.DeleteAdminUseCase;
-import co.com.bancolombia.usecase.getadminbyid.GetAdminByIdUseCase;
-import co.com.bancolombia.usecase.getalladmin.GetAllAdminUseCase;
-import co.com.bancolombia.usecase.updateadmin.UpdateAdminUseCase;
-import co.com.bancolombia.usecase.updateuser.UpdateUserUseCase;
+import co.com.bancolombia.usecase.UCAdmin.createadmin.CreateAdminUseCase;
+import co.com.bancolombia.usecase.UCAdmin.deleteadmin.DeleteAdminUseCase;
+import co.com.bancolombia.usecase.UCAdmin.getadminbyid.GetAdminByIdUseCase;
+import co.com.bancolombia.usecase.UCAdmin.getalladmin.GetAllAdminUseCase;
+import co.com.bancolombia.usecase.UCAdmin.updateadmin.UpdateAdminUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

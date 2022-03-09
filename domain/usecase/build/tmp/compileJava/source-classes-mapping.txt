@@ -1,20 +1,22 @@
-co/com/bancolombia/usecase/updateadmin/UpdateAdminUseCase.java
- co.com.bancolombia.usecase.updateadmin.UpdateAdminUseCase
-co/com/bancolombia/usecase/updateuser/UpdateUserUseCase.java
- co.com.bancolombia.usecase.updateuser.UpdateUserUseCase
-co/com/bancolombia/usecase/getalladmin/GetAllAdminUseCase.java
- co.com.bancolombia.usecase.getalladmin.GetAllAdminUseCase
-co/com/bancolombia/usecase/createuser/CreateUserUseCase.java
- co.com.bancolombia.usecase.createuser.CreateUserUseCase
-co/com/bancolombia/usecase/createadmin/CreateAdminUseCase.java
- co.com.bancolombia.usecase.createadmin.CreateAdminUseCase
-co/com/bancolombia/usecase/deleteuser/DeleteUserUseCase.java
- co.com.bancolombia.usecase.deleteuser.DeleteUserUseCase
-co/com/bancolombia/usecase/getall/GetAllUseCase.java
- co.com.bancolombia.usecase.getall.GetAllUseCase
-co/com/bancolombia/usecase/deleteadmin/DeleteAdminUseCase.java
- co.com.bancolombia.usecase.deleteadmin.DeleteAdminUseCase
-co/com/bancolombia/usecase/getuserbyid/GetUserByIdUseCase.java
- co.com.bancolombia.usecase.getuserbyid.GetUserByIdUseCase
-co/com/bancolombia/usecase/getadminbyid/GetAdminByIdUseCase.java
- co.com.bancolombia.usecase.getadminbyid.GetAdminByIdUseCase
+co/com/bancolombia/usecase/UCUser/getuserbyid/GetUserByIdUseCase.java
+ co.com.bancolombia.usecase.UCUser.getuserbyid.GetUserByIdUseCase
+co/com/bancolombia/usecase/UCAdmin/getadminbyid/GetAdminByIdUseCase.java
+ co.com.bancolombia.usecase.UCAdmin.getadminbyid.GetAdminByIdUseCase
+co/com/bancolombia/usecase/UCUser/updateuser/UpdateUserUseCase.java
+ co.com.bancolombia.usecase.UCUser.updateuser.UpdateUserUseCase
+co/com/bancolombia/usecase/UCAdmin/updateadmin/UpdateAdminUseCase.java
+ co.com.bancolombia.usecase.UCAdmin.updateadmin.UpdateAdminUseCase
+co/com/bancolombia/usecase/UCAdmin/createadmin/CreateAdminUseCase.java
+ co.com.bancolombia.usecase.UCAdmin.createadmin.CreateAdminUseCase
+co/com/bancolombia/usecase/createcollector/CreateCollectorUseCase.java
+ co.com.bancolombia.usecase.createcollector.CreateCollectorUseCase
+co/com/bancolombia/usecase/UCAdmin/deleteadmin/DeleteAdminUseCase.java
+ co.com.bancolombia.usecase.UCAdmin.deleteadmin.DeleteAdminUseCase
+co/com/bancolombia/usecase/UCUser/createuser/CreateUserUseCase.java
+ co.com.bancolombia.usecase.UCUser.createuser.CreateUserUseCase
+co/com/bancolombia/usecase/UCAdmin/getalladmin/GetAllAdminUseCase.java
+ co.com.bancolombia.usecase.UCAdmin.getalladmin.GetAllAdminUseCase
+co/com/bancolombia/usecase/UCUser/getall/GetAllUseCase.java
+ co.com.bancolombia.usecase.UCUser.getall.GetAllUseCase
+co/com/bancolombia/usecase/UCUser/deleteuser/DeleteUserUseCase.java
+ co.com.bancolombia.usecase.UCUser.deleteuser.DeleteUserUseCase

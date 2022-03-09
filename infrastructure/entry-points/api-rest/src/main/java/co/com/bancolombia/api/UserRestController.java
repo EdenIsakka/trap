@@ -1,10 +1,10 @@
 package co.com.bancolombia.api;
 import co.com.bancolombia.model.user.User;
-import co.com.bancolombia.usecase.createuser.CreateUserUseCase;
-import co.com.bancolombia.usecase.deleteuser.DeleteUserUseCase;
-import co.com.bancolombia.usecase.getall.GetAllUseCase;
-import co.com.bancolombia.usecase.getuserbyid.GetUserByIdUseCase;
-import co.com.bancolombia.usecase.updateuser.UpdateUserUseCase;
+import co.com.bancolombia.usecase.UCUser.createuser.CreateUserUseCase;
+import co.com.bancolombia.usecase.UCUser.deleteuser.DeleteUserUseCase;
+import co.com.bancolombia.usecase.UCUser.getall.GetAllUseCase;
+import co.com.bancolombia.usecase.UCUser.getuserbyid.GetUserByIdUseCase;
+import co.com.bancolombia.usecase.UCUser.updateuser.UpdateUserUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
