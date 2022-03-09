@@ -7,6 +7,8 @@ import co.com.bancolombia.mongo.helper.AdapterOperations;
 import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 
 @Repository
 public class AdminMongoRepositoryAdapter extends AdapterOperations<Admin, Admin, String, AdminMongoDBRepository>implements AdminRepository
@@ -32,6 +34,11 @@ public class AdminMongoRepositoryAdapter extends AdapterOperations<Admin, Admin,
     @Override
     public Admin updateAdmin(Admin admin) {
         return this.repository.save(admin);
+    }
+
+    @Override
+    public List<Admin> getAllAdmin() {
+        return this.repository.findAll();
     }
 
 
