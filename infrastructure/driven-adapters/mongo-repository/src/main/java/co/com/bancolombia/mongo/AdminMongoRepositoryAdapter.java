@@ -8,6 +8,7 @@ import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 
 @Repository
@@ -39,6 +40,11 @@ public class AdminMongoRepositoryAdapter extends AdapterOperations<Admin, Admin,
     @Override
     public List<Admin> getAllAdmin() {
         return this.repository.findAll();
+    }
+
+    @Override
+    public Optional<Admin> getAdminById(String id) {
+        return this.repository.findById(id);
     }
 
 

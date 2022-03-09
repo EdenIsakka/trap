@@ -14,3 +14,5 @@ co/com/bancolombia/usecase/getall/GetAllUseCase.java
  co.com.bancolombia.usecase.getall.GetAllUseCase
 co/com/bancolombia/usecase/getuserbyid/GetUserByIdUseCase.java
  co.com.bancolombia.usecase.getuserbyid.GetUserByIdUseCase
+co/com/bancolombia/usecase/getadminbyid/GetAdminByIdUseCase.java
+ co.com.bancolombia.usecase.getadminbyid.GetAdminByIdUseCase
