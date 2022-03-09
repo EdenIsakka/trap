@@ -10,4 +10,5 @@ public interface AdminRepository {
     Admin updateAdmin(Admin admin);
     List<Admin> getAllAdmin();
     Optional<Admin> getAdminById(String id);
+    void deleteAdmin(String id);
 }

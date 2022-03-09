@@ -1,6 +1,7 @@
 package co.com.bancolombia.api;
 import co.com.bancolombia.model.admin.Admin;
 import co.com.bancolombia.usecase.createadmin.CreateAdminUseCase;
+import co.com.bancolombia.usecase.deleteadmin.DeleteAdminUseCase;
 import co.com.bancolombia.usecase.getadminbyid.GetAdminByIdUseCase;
 import co.com.bancolombia.usecase.getalladmin.GetAllAdminUseCase;
 import co.com.bancolombia.usecase.updateadmin.UpdateAdminUseCase;
@@ -20,7 +21,7 @@ public class AdminRestController {
     private final UpdateAdminUseCase updateAdmin;
     private final GetAllAdminUseCase getAllAdmin;
     private final GetAdminByIdUseCase getAdminById;
-
+    private final DeleteAdminUseCase deleteAdmin;
 
     @PostMapping(path = "/create-admin")
     public String createAdmin(@RequestBody Admin admin) {
@@ -40,5 +41,10 @@ public class AdminRestController {
     @GetMapping(path = "/get-admin-by-id/{id}")
     public Optional<Admin> getAdminById(@PathVariable String id){
         return getAdminById.getAdminById(id);
+    }
+
+    @DeleteMapping(path = "/delete-admin/{id}")
+    public void deleteAdmin(@PathVariable String id){
+        deleteAdmin.deleteAdmin(id);
     }
 }

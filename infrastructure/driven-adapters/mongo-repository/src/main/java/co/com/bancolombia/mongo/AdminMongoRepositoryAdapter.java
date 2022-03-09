@@ -47,5 +47,8 @@ public class AdminMongoRepositoryAdapter extends AdapterOperations<Admin, Admin,
         return this.repository.findById(id);
     }
 
-
+    @Override
+    public void deleteAdmin(String id) {
+        this.repository.deleteById(id);
+    }
 }
