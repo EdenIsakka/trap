@@ -26,3 +26,5 @@ co/com/bancolombia/usecase/UCUser/getall/GetAllUseCase.java
  co.com.bancolombia.usecase.UCUser.getall.GetAllUseCase
 co/com/bancolombia/usecase/getcollectorbyid/GetCollectorByIdUseCase.java
  co.com.bancolombia.usecase.getcollectorbyid.GetCollectorByIdUseCase
+co/com/bancolombia/usecase/deletecollector/DeleteCollectorUseCase.java
+ co.com.bancolombia.usecase.deletecollector.DeleteCollectorUseCase

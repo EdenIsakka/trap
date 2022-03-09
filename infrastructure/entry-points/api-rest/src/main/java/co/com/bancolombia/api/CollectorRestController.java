@@ -1,6 +1,7 @@
 package co.com.bancolombia.api;
 import co.com.bancolombia.model.collector.Collector;
 import co.com.bancolombia.usecase.createcollector.CreateCollectorUseCase;
+import co.com.bancolombia.usecase.deletecollector.DeleteCollectorUseCase;
 import co.com.bancolombia.usecase.getallcollector.GetAllCollectorUseCase;
 import co.com.bancolombia.usecase.getcollectorbyid.GetCollectorByIdUseCase;
 import co.com.bancolombia.usecase.updatecollector.UpdateCollectorUseCase;
@@ -19,7 +20,7 @@ public class CollectorRestController {
     private final UpdateCollectorUseCase updateCollector;
     private final GetAllCollectorUseCase getAllCollector;
     private final GetCollectorByIdUseCase getCollectorById;
-
+    private final DeleteCollectorUseCase deleteCollector;
 
     @PostMapping(path = "/create-collector")
     public String createCollector(@RequestBody Collector collector) {
@@ -39,5 +40,10 @@ public class CollectorRestController {
     @GetMapping(path = "/get-collector-by-id/{id}")
     public Optional<Collector> getCollectorById(@PathVariable String id){
         return getCollectorById.getCollectorById(id);
+    }
+
+    @DeleteMapping(path = "/delete-collector/{id}")
+    public void deleteCollector(@PathVariable String id){
+        deleteCollector.deleteCollector(id);
     }
 }

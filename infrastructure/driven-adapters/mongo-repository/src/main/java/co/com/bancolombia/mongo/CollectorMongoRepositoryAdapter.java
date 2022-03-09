@@ -50,6 +50,7 @@ public class CollectorMongoRepositoryAdapter extends AdapterOperations<Collector
 
     @Override
     public void deleteCollector(String id) {
+        this.repository.deleteById(id);
 
     }
 }
