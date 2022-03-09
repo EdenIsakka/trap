@@ -8,6 +8,6 @@ public class CreateAdminUseCase {
     private final AdminRepository repository;
 
     public Admin createAdmin(Admin admin){
-        return this.repository.createAdmin(admin);
+        return repository.createAdmin(admin);
     }
 }
