@@ -35,7 +35,7 @@ public class CollectorMongoRepositoryAdapter extends AdapterOperations<Collector
 
     @Override
     public Collector updateCollector(Collector collector) {
-        return null;
+        return this.repository.save(collector);
     }
 
     @Override

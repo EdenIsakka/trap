@@ -2,6 +2,8 @@ co/com/bancolombia/usecase/UCUser/getuserbyid/GetUserByIdUseCase.java
  co.com.bancolombia.usecase.UCUser.getuserbyid.GetUserByIdUseCase
 co/com/bancolombia/usecase/UCAdmin/getadminbyid/GetAdminByIdUseCase.java
  co.com.bancolombia.usecase.UCAdmin.getadminbyid.GetAdminByIdUseCase
+co/com/bancolombia/usecase/updatecollector/UpdateCollectorUseCase.java
+ co.com.bancolombia.usecase.updatecollector.UpdateCollectorUseCase
 co/com/bancolombia/usecase/UCUser/updateuser/UpdateUserUseCase.java
  co.com.bancolombia.usecase.UCUser.updateuser.UpdateUserUseCase
 co/com/bancolombia/usecase/UCAdmin/updateadmin/UpdateAdminUseCase.java
