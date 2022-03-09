@@ -1,4 +1,4 @@
-package co.com.bancolombia.usecase.getcollectorbyid;
+package co.com.bancolombia.usecase.UCCollector.getcollectorbyid;
 
 import co.com.bancolombia.model.collector.Collector;
 import co.com.bancolombia.model.collector.gateways.CollectorRepository;

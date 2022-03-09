@@ -1,10 +1,10 @@
 package co.com.bancolombia.api;
 import co.com.bancolombia.model.collector.Collector;
-import co.com.bancolombia.usecase.createcollector.CreateCollectorUseCase;
-import co.com.bancolombia.usecase.deletecollector.DeleteCollectorUseCase;
-import co.com.bancolombia.usecase.getallcollector.GetAllCollectorUseCase;
-import co.com.bancolombia.usecase.getcollectorbyid.GetCollectorByIdUseCase;
-import co.com.bancolombia.usecase.updatecollector.UpdateCollectorUseCase;
+import co.com.bancolombia.usecase.UCCollector.createcollector.CreateCollectorUseCase;
+import co.com.bancolombia.usecase.UCCollector.deletecollector.DeleteCollectorUseCase;
+import co.com.bancolombia.usecase.UCCollector.getallcollector.GetAllCollectorUseCase;
+import co.com.bancolombia.usecase.UCCollector.getcollectorbyid.GetCollectorByIdUseCase;
+import co.com.bancolombia.usecase.UCCollector.updatecollector.UpdateCollectorUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

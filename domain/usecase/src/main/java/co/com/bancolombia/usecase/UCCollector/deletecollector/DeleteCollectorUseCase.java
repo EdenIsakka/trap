@@ -1,4 +1,4 @@
-package co.com.bancolombia.usecase.deletecollector;
+package co.com.bancolombia.usecase.UCCollector.deletecollector;
 
 import co.com.bancolombia.model.collector.gateways.CollectorRepository;
 import lombok.RequiredArgsConstructor;
