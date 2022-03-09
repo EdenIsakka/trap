@@ -40,12 +40,12 @@ public class CollectorMongoRepositoryAdapter extends AdapterOperations<Collector
 
     @Override
     public List<Collector> getAllCollector() {
-        return null;
+        return this.repository.findAll();
     }
 
     @Override
     public Optional<Collector> getCollectorById(String id) {
-        return Optional.empty();
+        return this.repository.findById(id);
     }
 
     @Override
