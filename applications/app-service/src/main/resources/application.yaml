@@ -13,4 +13,4 @@ spring:
     include: null
   data:
     mongodb:
-      uri: "mongodb+srv://jspr200231:Andreita214@cluster0.nnngj.mongodb.net/CrappAplication?retryWrites=true&w=majority"
+      uri: ""
