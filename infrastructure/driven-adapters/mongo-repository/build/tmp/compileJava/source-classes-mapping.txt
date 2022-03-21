@@ -1,0 +1,19 @@
+co/com/bancolombia/mongo/UserMongoDBRepository.java
+ co.com.bancolombia.mongo.UserMongoDBRepository
+co/com/bancolombia/mongo/AdminMongoRepositoryAdapter.java
+ co.com.bancolombia.mongo.AdminMongoRepositoryAdapter
+co/com/bancolombia/mongo/config/MongoDBSecret.java
+ co.com.bancolombia.mongo.config.MongoDBSecret
+ co.com.bancolombia.mongo.config.MongoDBSecret$MongoDBSecretBuilder
+co/com/bancolombia/mongo/AdminMongoDBRepository.java
+ co.com.bancolombia.mongo.AdminMongoDBRepository
+co/com/bancolombia/mongo/UserMongoRepositoryAdapter.java
+ co.com.bancolombia.mongo.UserMongoRepositoryAdapter
+co/com/bancolombia/mongo/CollectorMongoDBRepository.java
+ co.com.bancolombia.mongo.CollectorMongoDBRepository
+co/com/bancolombia/mongo/CollectorMongoRepositoryAdapter.java
+ co.com.bancolombia.mongo.CollectorMongoRepositoryAdapter
+co/com/bancolombia/mongo/helper/AdapterOperations.java
+ co.com.bancolombia.mongo.helper.AdapterOperations
+co/com/bancolombia/mongo/config/MongoConfig.java
+ co.com.bancolombia.mongo.config.MongoConfig
