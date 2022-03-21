@@ -3,6 +3,8 @@
 import { useAuth } from "../context/authContext"
 import { useState } from "react";
 import { Alert } from "./Alert";
+import { doc, setDoc, getDoc } from "firebase/firestore";
+import { auth, firestore, colRef } from "../firebase/firebase-config";
 
 export function Home() {
 
@@ -10,6 +12,9 @@ export function Home() {
     const { user, logout, loading } = useAuth();
 
     const [error, setError] = useState(); //* GUARDA MENSAJES DE ERROR *//
+
+    const [userRol, setRol] = useState();
+
 
     const handleLogout = async () => {
         setError('')
@@ -20,6 +25,7 @@ export function Home() {
         }
 
     }
+    
 
     //* SI LOS DATOS DEL AUTH NO SE HAN ACTUALIZADO, SE PINTA UN "CARGANDO" *//
     if (loading) return <h1>Cargando...</h1>
